@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face { 
+font-family: "AlexBrush-Regular"; 
+src:url(../fonts/KaushanScript-Regular.otf) ;
+}
+@font-face { 
+font-family: "Exo-Regular"; 
+src:url(../fonts/Exo-Regular.otf) ;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+body{
+	padding: 10px;
+	background:url(../img/darkgrey.jpg) repeat;
+}
+.header{
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	border:#333333 solid 1px;
+	border-radius:5px;
+	overflow:hidden;
+}
+ul li{
+	list-style-type:none;
+}
+	
+.searching{
+	width: 1000px;
+	min-height: 600px;
+	overflow:hidden;
+	background:url(../img/darkblue.jpg);
+	border:solid 1px  #333333;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top: 5px;
+}
+
+.searchboard{
+	width: 80%;
+	min-height: 600px;
+	background-color: #CCC;
+	margin:0 auto;
+	padding-bottom: 20px;
+}
+
+.searchboard .title{
+	width: 100%;
+	height: 80px;
+	font-family: "Exo-Regular";
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	border-bottom:dotted #666666;
+}
+
+.searchboard .title p{
+	line-height: 80px;
+}
+
+
+.searchclass{
+		margin-top: 20px;
+}
+.toggleboard{
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	background-color: white;
+	border: solid 1px #999999;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.toggleboard .searchmethod{
+	float: left;
+	width:90%;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100px;
+}
+
+#directsearch{
+	background:url(../img/darkgrey.jpg);
+}
+
+.directinput{
+	float:left;
+	width:70%;
+	line-height:100px;
+	text-align:center;
+	padding-top:20px;
+}
+
+#inputinfo{
+	width:400px;
+	height:40px;
+	border-radius:5px;
+}
+
+#searchbutton{
+	float:left;
+	width: 150px;
+	height:40px;
+	color:white;
+	text-align:center;
+	cursor: pointer;
+	margin-top:20px;
+	padding-top:5px;
+	background:url(../img/green.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+}
+
+.searchicon{
+	float: right;
+	margin-top:25px;
+	width: 56px;
+	height: 55px;
+	line-height: 100px;
+	cursor: pointer;
+	background:url(../img/up.jpg) no-repeat;
+}
+
+.active{
+	float: right;
+	margin-top:25px;
+	width: 56px;
+	height: 55px;
+	line-height: 100px;
+	cursor: pointer;
+	background: url(../img/down.jpg) no-repeat;
+}
+
+.boards{
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	background-color: white;
+	border: solid 1px #999999;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+	display: none;
+}
+
+#languagecontent .flags{
+	margin:5px 20px;
+	width:115px;
+	height:81px;
+	cursor:pointer;
+}
+
+#communitycontent .flags{
+	width:245px;
+	height:110px;
+	margin:5px 20px;
+	cursor:pointer;
+}
+
+#categorycontent .flags{
+	width:120px;
+	height:97px;
+	margin:2px 10px;
+	cursor:pointer;
+}
+
+#languageboard{
+	background:url(../img/lightblue.jpg);
+}
+#communityboard{
+	background:url(../img/lightgrey.jpg);
+}
+#categoryboard{
+	background:url(../img/mi.jpg)
+}
+
+#communitycontent{
+	height:280px;
+}
+
+
+.nav{
+	width: 1000px;
+	height:50px;
+	background:url(../img/coffee.jpg) repeat;
+	overflow: hidden;
+	margin:0 auto;
+	border-color: 1px solid #CCC;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.nav ul li{
+	float: left;
+	line-height: 50px;
+	margin:0px 20px;
+}
+.nav ul li a{
+	display: block;
+	text-align: center;
+	width: 180px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: bold;
+}
+.nav ul li a:link, a:visited{
+	color: #444444;
+
+}
+.nav ul li a:hover, a:active{
+	background-color:#DEB887 ;
+	color: white;
+}
+#log{
+	float: right;
+}
+.userinfo{
+	float: right;
+	width: 500px;
+}
+
+.login{
+	float: left;
+	width: 130px;
+	height: 25px;
+	border-radius: 3px;
+	margin-right: 8px;
+	margin-top: 12px;
+
+}
+
+#login{
+	font-family: "AlexBrush-Regular"; 
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	background:url(../img/lightblue.jpg);
+}
+
+#login:hover{
+	background:#390;
+}
+
+#signup{
+	font-family: "AlexBrush-Regular";
+	margin-top: 12px;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	float: left;
+	border-radius: 3px;
+	margin-left: 3px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	background:url(../img/lightblue.jpg)no-repeat;
+}
+#signup:hover{
+	background:#390;
+}
+
+
+
+.footer{
+	width: 1000px;
+	height: 70px;
+	background-color: white;
+	border:solid 1px white;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top: 5px;
+}
+address{
+	margin-top: 10px;
+	font-size: 10px;
+	text-align: center;
+	font-family: arial;
+}
+
+address a{
+	font-size: 10px;
+	text-decoration: none;
+}

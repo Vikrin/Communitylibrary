@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Library</title>
+<link type="text/css" rel="stylesheet" href="css/country.css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/country.js"></script>
+
+</head>
+
+<body>
+<div id="bg"></div><!--background-->
+<div class="header">
+		<img src="img/chinaflag.jpg" />
+</div><!-- end of the slider -->
+
+<div class="nav">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="search.html">Search</a></li>
+	</ul>
+	<div class="userinfo">
+		<input class="login" type="text" id="username" 	autofocus; placeholder="Username"/>
+		<input class="login" type="password" id="password" placeholder="Password" />
+		<input class="login" type="button" id="login" value="Login"/>
+
+		<input type="button" id="signup" value="Sign up"/>
+	</div>
+
+</div><!-- end of navigation -->	
+
+
+<!--Hiden signup board, click "Sign up" turn up-->
+
+<div id="signupboard">
+    <p> Please input your information for registration</p>
+    <div>
+    <label for="name">Name</label><br />
+    <input type="text" id="name"/><br />
+    <label for="email">Email</label><br />
+    <input type="text" id="email"/><br />
+    <label for="community">Community</label><br />
+    <input type="text" id="community"/><br />
+    <label for="country">Country</label><br />
+    <input type="text" id="country"/><br /><br />
+    <input type="button" value="Signup" id="newuser"/>
+    </div>
+</div><!-- end of userlogin -->
+
+<div class="maincontent">
+		<div class="filter">
+			<div class="title">
+			<p>Choose filter:</p>
+			</div>
+			<div class="searchclass">
+
+	        	<div class="toggleboard" id="directsearch">
+					<div class="directinput"><input id="inputinfo" type="text" placeholder="Book or CD name"/></div>
+					<input type="button" id="searchbutton" value="Search">
+				</div><!--direct seraching-->
+
+
+				<div class="toggleboard" id="communityboard">
+					<div class="searchmethod">Search by Communities</div>
+					<div class="searchicon active" id="Community"></div>
+				</div>
+				<div class="boards" id="communitycontent">
+		            <a href="#">University Village</a>
+		            <a href="#">Olentangy Village</a>
+		            <a href="#">Buckeye Village</a>
+	           	</div><!--community filter-->
+
+
+				<div class="toggleboard" id="categoryboard">
+					<div class="searchmethod">Search by Categories</div>
+					<div class="searchicon active" id="Category"></div>
+				</div>
+				<div class="boards" id="categorycontent">
+	            	<a href="#">History</a></br>
+	            	<a href="#">Novel</a></br>
+	            	<a href="#">Poem</a></br>
+	            	<a href="#">Science</a></br>
+	            </div><!--category filter-->
+
+	            <div class="selection" id='popular'>
+					
+				</div><!--Most popular board-->
+
+				<div class="selection" id="newest">
+					
+				</div><!--Newest board-->
+
+			</div>
+
+	</div>
+</div>
+	<div class="display">
+	</div>
+</div><!-- end of the main content -->
+
+<div class="footer">
+	<address>
+	Written by Xueke Wang<br />
+	<a href="xuekew@hotmail.com">Email me</a><br />
+	Address: Box 564, Disneyland<br />
+	Phone: +12 34 56 78
+	</address>
+</div>
+
+</body>
+</html>

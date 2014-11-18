@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Library</title>
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/setHomeSetFav.js"></script>
+<script type="text/javascript" src="js/myfocus-2.0.1.min.js" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+myFocus.set({
+    id:'container1',
+    pattern:'mF_fancy',
+    time:3,
+    trigger:'click',
+    width:300,
+    height:250,
+    txtHeight:'default'
+});
+
+myFocus.set({
+    id:'container2',
+    pattern:'mF_fancy',
+    time:3,
+    trigger:'click',
+    width:500,
+    height:250,
+    txtHeight:'default'
+});;
+</script>
+
+
+</head>
+
+<body>
+<div id="bg"></div><!--background-->
+<div class="header">
+		<img src="img/book4.jpg" />
+</div><!-- end of the slider -->
+
+<div class="nav">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="search.html">Search</a></li>
+	</ul>
+	<div class="userinfo">
+		<input class="login" type="text" id="username" 	autofocus; placeholder="Username"/>
+		<input class="login" type="password" id="password" placeholder="Password" />
+		<input class="login" type="button" id="login" value="Login"/>
+
+		<input type="button" id="signup" value="Sign up"/>
+	</div>
+
+</div><!-- end of navigation -->	
+
+
+<!--Hiden signup board, click "Sign up" turn up-->
+
+<div id="signupboard">
+    <p> Please input your information for registration</p>
+    <div>
+    <label for="name">Name</label><br />
+    <input type="text" id="name"/><br />
+    <label for="email">Email</label><br />
+    <input type="text" id="email"/><br />
+    <label for="community">Community</label><br />
+    <input type="text" id="community"/><br />
+    <label for="country">Country</label><br />
+    <input type="text" id="country"/><br /><br />
+    <input type="button" value="Signup" id="newuser"/>
+    </div>
+</div><!-- end of userlogin -->
+
+<div class="maincontent">
+	<div class='topcontent'>
+		<div class="topleft">
+			<div id="container1">
+				<div class="pic">
+					<ul>
+						<li><img src="img/demo1.jpg"></li>
+						<li><img src="img/demo2.jpg"></li>
+						<li><img src="img/demo3.jpg"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="topright">
+			<div class="text">
+			</br></br>
+			<p>This is a website for international students in Columbus to share their resources: Books and CDs. </br></br></br>
+			Didn't bring enough books to US but want find some books new to read? Online library is for you!</br>
+			</p>
+			</div>
+		</div>
+	</div>
+	<div class="bottomcontent">
+		<div class="bottomleft">
+        	<div class="text">
+
+			<p>You can search for the book based on your <a href="#">language</a>.</p></br>
+			<p>You can search for the book based on your <a href="#">community</a>.</p></br>
+			<p>OR just check around and run into the book you like!</p></br>
+			</div>
+        </div>
+		<div class="bottomright">
+            <div id="container2">
+            	<!-- <div class="loading"><img src="img/loading.gif" /></div> -->
+                  <div class="pic">
+                      <ul>
+                          <li><img src="img/flags1.jpg"></li>
+                          <li><img src="img/flags2.jpg"></li>
+                          <li><img src="img/flags3.jpg"></li>
+                      </ul>
+                  </div>
+        	</div>
+		</div>
+	</div>
+</div><!-- end of the main content -->
+
+<div class="footer">
+	<address>
+	Written by Xueke Wang<br />
+	<a href="xuekew@hotmail.com">Email me</a><br />
+	Address: Box 564, Disneyland<br />
+	Phone: +12 34 56 78
+	</address>
+</div>
+
+</body>
+</html>
